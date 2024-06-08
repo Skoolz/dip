@@ -1,0 +1,23 @@
+<list>
+<re><entity1>пациент<entity2>40–49 лет<relation>баллы 0</re>
+<re><entity1>пациент<entity2>50–59 лет<relation>баллы 4</re>
+<re><entity1>пациент<entity2>60–69 лет<relation>баллы 8</re>
+<re><entity1>пациент<entity2>70 лет и старше<relation>баллы 10</re>
+<re><entity1>пациент<entity2>0–14 пачка-лет<relation>баллы 0</re>
+<re><entity1>пациент<entity2>15–24 пачка-лет<relation>баллы 2</re>
+<re><entity1>пациент<entity2>25–49 пачка-лет<relation>баллы 3</re>
+<re><entity1>пациент<entity2>50 и более пачка-лет<relation>баллы 7</re>
+<re><entity1>пациент<entity2>ИМТ < 25,4<relation>баллы 5</re>
+<re><entity1>пациент<entity2>ИМТ 25,4–29,7<relation>баллы 1</re>
+<re><entity1>пациент<entity2>ИМТ > 29,7<relation>баллы 0</re>
+<re><entity1>пациент<entity2>кашель из-за плохой погоды<relation>баллы 3</re>
+<re><entity1>пациент<entity2>нет кашля из-за плохой погоды<relation>баллы 0</re>
+<re><entity1>пациент<entity2>кашель с мокротой вне простудных заболеваний<relation>баллы 3</re>
+<re><entity1>пациент<entity2>нет кашля с мокротой вне простудных заболеваний<relation>баллы 0</re>
+<re><entity1>пациент<entity2>кашель с мокротой по утрам<relation>баллы 0</re>
+<re><entity1>пациент<entity2>нет кашля с мокротой по утрам<relation>баллы 3</re>
+<re><entity1>пациент<entity2>никогда не возникает одышка<relation>баллы 0</re>
+<re><entity1>пациент<entity2>иногда или чаще возникает одышка<relation>баллы 4</re>
+<re><entity1>пациент<entity2>имеется аллергия<relation>баллы 0</re>
+<re><entity1>пациент<entity2>нет аллергии<relation>баллы 3</re>
+</list>

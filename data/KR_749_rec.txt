@@ -1,0 +1,54 @@
+<list>
+<re><entity1>пациент<entity2>открывание глаз на вербальную стимуляцию<relation>баллы 3</re>
+<re><entity1>пациент<entity2>открывание глаз на боль<relation>баллы 2</re>
+<re><entity1>пациент<entity2>открывание глаз спонтанное<relation>баллы 4</re>
+<re><entity1>пациент<entity2>нет реакции глаз<relation>баллы 1</re>
+<re><entity1>пациент<entity2>вербальная реакция соответствующая<relation>баллы 5</re>
+<re><entity1>пациент<entity2>вербальная реакция спутанная<relation>баллы 4</re>
+<re><entity1>пациент<entity2>бессвязные слова<relation>баллы 3</re>
+<re><entity1>пациент<entity2>нечленораздельные звуки<relation>баллы 2</re>
+<re><entity1>пациент<entity2>нет вербальной реакции<relation>баллы 1</re>
+<re><entity1>пациент<entity2>выполнение словесных команд<relation>баллы 6</re>
+<re><entity1>пациент<entity2>локализация боли<relation>баллы 5</re>
+<re><entity1>пациент<entity2>реакция одергивания в ответ на боль<relation>баллы 4</re>
+<re><entity1>пациент<entity2>сгибание верхних конечностей в ответ на боль<relation>баллы 3</re>
+<re><entity1>пациент<entity2>разгибание верхних конечностей в ответ на боль<relation>баллы 2</re>
+<re><entity1>пациент<entity2>нет двигательной реакции<relation>баллы 1</re>
+<re><entity1>пациент<entity2>PaO2/FiO2 >400<relation>баллы 0</re>
+<re><entity1>пациент<entity2>PaO2/FiO2 300-399<relation>баллы 1</re>
+<re><entity1>пациент<entity2>PaO2/FiO2 200-299<relation>баллы 2</re>
+<re><entity1>пациент<entity2>PaO2/FiO2 100-199<relation>баллы 3</re>
+<re><entity1>пациент<entity2>PaO2/FiO2 <100<relation>баллы 4</re>
+<re><entity1>пациент<entity2>количество тромбоцитов в мл >150000<relation>баллы 0</re>
+<re><entity1>пациент<entity2>количество тромбоцитов в мл 100000-149000<relation>баллы 1</re>
+<re><entity1>пациент<entity2>количество тромбоцитов в мл 50000-99999<relation>баллы 2</re>
+<re><entity1>пациент<entity2>количество тромбоцитов в мл 20000-49999<relation>баллы 3</re>
+<re><entity1>пациент<entity2>количество тромбоцитов в мл <20000<relation>баллы 4</re>
+<re><entity1>пациент<entity2>билирубин сыворотки <20<relation>баллы 0</re>
+<re><entity1>пациент<entity2>билирубин сыворотки 20-32<relation>баллы 1</re>
+<re><entity1>пациент<entity2>билирубин сыворотки 33-101<relation>баллы 2</re>
+<re><entity1>пациент<entity2>билирубин сыворотки 102-204<relation>баллы 3</re>
+<re><entity1>пациент<entity2>билирубин сыворотки >204<relation>баллы 4</re>
+<re><entity1>пациент<entity2>среднее артериальное давление >70 мм рт. ст.<relation>баллы 0</re>
+<re><entity1>пациент<entity2>среднее артериальное давление <70 мм рт. ст. без использования вазопрессоров<relation>баллы 1</re>
+<re><entity1>пациент<entity2>использование любой дозы добутамина<relation>баллы 2</re>
+<re><entity1>пациент<entity2>допамин <5 мкг/кг в минуту<relation>баллы 2</re>
+<re><entity1>пациент<entity2>допамин 5-15 мкг/кг в минуту<relation>баллы 3</re>
+<re><entity1>пациент<entity2>адреналин <0.1 мкг/кг в минуту<relation>баллы 3</re>
+<re><entity1>пациент<entity2>норадреналин <0.1 мкг/кг в минуту<relation>баллы 3</re>
+<re><entity1>пациент<entity2>допамин >15 мкг/кг в минуту<relation>баллы 4</re>
+<re><entity1>пациент<entity2>адреналин >0.1 мкг/кг в минуту<relation>баллы 4</re>
+<re><entity1>пациент<entity2>норадреналин >0.1 мкг/кг в минуту<relation>баллы 4</re>
+<re><entity1>пациент<entity2>оценка тяжести комы по Глазго 15<relation>баллы 0</re>
+<re><entity1>пациент<entity2>оценка тяжести комы по Глазго 13-14<relation>баллы 1</re>
+<re><entity1>пациент<entity2>оценка тяжести комы по Глазго 10-12<relation>баллы 2</re>
+<re><entity1>пациент<entity2>оценка тяжести комы по Глазго 6-9<relation>баллы 3</re>
+<re><entity1>пациент<entity2>оценка тяжести комы по Глазго 3-5<relation>баллы 4</re>
+<re><entity1>пациент<entity2>креатинин сыворотки <100 мкмоль/л<relation>баллы 0</re>
+<re><entity1>пациент<entity2>креатинин сыворотки 100-170 мкмоль/л<relation>баллы 1</re>
+<re><entity1>пациент<entity2>креатинин сыворотки 171-299 мкмоль/л<relation>баллы 2</re>
+<re><entity1>пациент<entity2>креатинин сыворотки 300-400 мкмоль/л<relation>баллы 3</re>
+<re><entity1>пациент<entity2>суточный диурез 200-499 мл<relation>баллы 3</re>
+<re><entity1>пациент<entity2>креатинин сыворотки >440 мкмоль/л<relation>баллы 4</re>
+<re><entity1>пациент<entity2>суточный диурез <200 мл<relation>баллы 4</re>
+</list>
