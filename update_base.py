@@ -26,6 +26,8 @@ from huggingface_hub import notebook_login
 from pyvis.network import Network
 import networkx as nx
 
+import os
+
 documents = [
     '25',
     '261',
@@ -70,7 +72,14 @@ headers = [
             ]
 
 
-model = ChatOpenAI(model_name='gpt-4o')
+model = None
+
+def set_model(key):
+    global model
+    os.environ['OPENAI_API_KEY'] = key
+    model = ChatOpenAI(model_name='gpt-4o')
+
+
 
 #------------------------------------------------------------------------------
 

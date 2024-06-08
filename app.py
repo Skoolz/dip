@@ -194,6 +194,7 @@ def patient_info_app():
             st.info(st.session_state['triplets'])
 
 def download_doc_app():
+    return
     st.title("Knowledge Base Updater")
     
     if st.button("Обновить базу знаний"):
