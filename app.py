@@ -153,7 +153,7 @@ def patient_info_app():
                 }
 
                 def generate_response():
-                    client = RemoteRunnable('http://31.12.82.146:8000/med/')
+                    client = RemoteRunnable('http://31.12.82.146:21081/med/')
 
                     key = st.session_state['api_key']
                     model_params = st.session_state['model_params']
