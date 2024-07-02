@@ -55,7 +55,9 @@ def patient_info_app():
         'gpt-4-turbo': 'OpenAI GPT-4',
         'gpt-4o': 'OpenAI GPT-4o',
         'claude-3-opus-20240229': 'Claude Opus',
-        'llama-3-sonar-large-32k-chat':'Perplexity Sonar Large'
+        'llama-3-sonar-large-32k-chat':'Perplexity Sonar Large',
+        'GigaChat-Pro':'GigaChat Pro',
+        'local_model':'Локальная модель'
     }
 
     status_error = {
@@ -153,7 +155,7 @@ def patient_info_app():
                 }
 
                 def generate_response():
-                    client = RemoteRunnable('http://31.12.82.146:21081/med/')
+                    client = RemoteRunnable('http://127.0.0.1:5555/med/')
 
                     key = st.session_state['api_key']
                     model_params = st.session_state['model_params']

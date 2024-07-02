@@ -14,6 +14,7 @@ from graph import Graph
 
 from langchain_anthropic import ChatAnthropic
 from langchain_community.chat_models.perplexity import ChatPerplexity
+from langchain_community.chat_models.gigachat import GigaChat
 
 
 def unite_docs(docs:dict):
@@ -70,6 +71,7 @@ def get_relevant_file(patient_info,documents,model):
     </list>
 
     Выход:
+    <thoughts>
     '''
 
     template = ChatPromptTemplate.from_messages([
@@ -83,9 +85,12 @@ def get_relevant_file(patient_info,documents,model):
 
     output = chain.invoke(input = {'disease': patient_info['main_diagnosis'], 'patient_age':patient_info['age'],'docs':docs})
 
+    print('DEBUG:',output)
+
     output_pattern = r'<id>(.*)</id>'
 
     id = re.findall(output_pattern,output)[0]
+    id = id.encode()
 
     return id
 
@@ -223,6 +228,8 @@ def generate_recoms(model,triplets,patient_info):
 
     output_pattern = r'<output>(.*)</output>'
 
+    print('DEBUG:',output)
+
     output = re.findall(output_pattern,output, re.DOTALL)[0]
 
     return output
@@ -245,6 +252,10 @@ def run(data):
     elif('sonar' in model_name):
         os.environ["PPLX_API_KEY"] = key
         model = ChatPerplexity(model=model_name,temperature=temperature,model_kwargs=model_params)
+    elif('local_model'==model_name):
+        model = ChatOpenAI(base_url=key,api_key='llama.cpp')
+    elif('GigaChat' in model_name):
+        model = GigaChat(credentials=key,model_name=model_name,temperature=temperature,verify_ssl_certs=False)
 
     steps = 0
     print(f'[{steps}]:getting graph')
